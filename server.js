@@ -32,57 +32,6 @@ let bikes = {
         },
         'cost': '21.000€/17.000€'
     },
-
-    'africa twin': {
-        'brand': 'honda',
-        'year': '2024',
-        'engine': '1084cc P Twin',
-        'torque': '100.6hp 77 lb-ft (104nm)',
-        'transmission': '6 speed Manual/DCT Chain',
-        'forks': 'Showa 45 mm USD 9.1" Electronic',
-        'shocks': '8.7" Pre(E)',
-        'wheels': 'X Spoked 21"/18"',
-        'tires': 'Meltzeler Karoo Street 90/90/21 150/70/18',
-        'brakes':{ 
-            'brand': 'Nissin',
-            'abs': 'Lean Sense Switchable Offroad',
-            'front disc': '310mm x2',
-            'rear': '256mm x1'
-        },
-        'wet weight': '240kgs',
-        'seat height': 'high 870mm low 850mm',
-        'fuel':{
-            'usage': '21 kmpl',
-            'tank capacity': '24.8/19.0 ltrs',
-            'range': '520/400 kms'
-        },
-        'cost': '21.000€/17.000€'
-    },
-    'africa twin': {
-        'brand': 'honda',
-        'year': '2024',
-        'engine': '1084cc P Twin',
-        'torque': '100.6hp 77 lb-ft (104nm)',
-        'transmission': '6 speed Manual/DCT Chain',
-        'forks': 'Showa 45 mm USD 9.1" Electronic',
-        'shocks': '8.7" Pre(E)',
-        'wheels': 'X Spoked 21"/18"',
-        'tires': 'Meltzeler Karoo Street 90/90/21 150/70/18',
-        'brakes':{ 
-            'brand': 'Nissin',
-            'abs': 'Lean Sense Switchable Offroad',
-            'front disc': '310mm x2',
-            'rear': '256mm x1'
-        },
-        'wet weight': '240kgs',
-        'seat height': 'high 870mm low 850mm',
-        'fuel':{
-            'usage': '21 kmpl',
-            'tank capacity': '24.8/19.0 ltrs',
-            'range': '520/400 kms'
-        },
-        'cost': '21.000€/17.000€'
-    },
     'unknown': {
         'model': 'unknown',
         'year': 'unknown',
