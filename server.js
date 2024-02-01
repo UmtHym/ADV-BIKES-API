@@ -6,8 +6,8 @@ const PORT = 8000
 
 app.use(cors())
 
-const bikes = {
-    'Honda':{
+let bikes = {
+    'Honda': {
         'model': 'Africa Twin',
         'year': '2024',
         'engine': '1084cc P Twin',
@@ -33,7 +33,7 @@ const bikes = {
         'cost': '21.000€/17.000€'
     },
 
-    'Honda':{
+    'Honda': {
         'model': 'Africa Twin',
         'year': '2024',
         'engine': '1084cc P Twin',
@@ -58,7 +58,7 @@ const bikes = {
         },
         'cost': '21.000€/17.000€'
     },
-    'Honda':{
+    'Honda': {
         'model': 'Africa Twin',
         'year': '2024',
         'engine': '1084cc P Twin',
@@ -83,7 +83,7 @@ const bikes = {
         },
         'cost': '21.000€/17.000€'
     },
-    'unknown':{
+    'unknown': {
         'model': 'unknown',
         'year': 'unknown',
         'engine': 'unknown',
