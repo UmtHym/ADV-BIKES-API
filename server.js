@@ -7,8 +7,8 @@ const PORT = 8000
 app.use(cors())
 
 const bikes = {
-    'africa twin':{
-        'brand': 'Honda',
+    'Honda':{
+        'model': 'Africa Twin',
         'year': '2024',
         'engine': '1084cc P Twin',
         'torque': '100.6hp 77 lb-ft (104nm)',
@@ -33,8 +33,8 @@ const bikes = {
         'cost': '21.000€/17.000€'
     },
 
-    '':{
-        'brand': 'Honda',
+    'Honda':{
+        'model': 'Africa Twin',
         'year': '2024',
         'engine': '1084cc P Twin',
         'torque': '100.6hp 77 lb-ft (104nm)',
@@ -58,8 +58,8 @@ const bikes = {
         },
         'cost': '21.000€/17.000€'
     },
-    'africa twin':{
-        'brand': 'Honda',
+    'Honda':{
+        'model': 'Africa Twin',
         'year': '2024',
         'engine': '1084cc P Twin',
         'torque': '100.6hp 77 lb-ft (104nm)',
@@ -84,7 +84,7 @@ const bikes = {
         'cost': '21.000€/17.000€'
     },
     'unknown':{
-        'brand': 'unknown',
+        'model': 'unknown',
         'year': 'unknown',
         'engine': 'unknown',
         'torque': 'unknown',
@@ -114,10 +114,10 @@ app.get('/',(request, response)=>{
     response.sendFile(__dirname + '/index.html')
 })
 
-app.get('/api/:model', (request, response)=>{
-    const bikeBrand = request.params.model.toLowerCase()
-    if(bikes[bikeBrand]){
-        response.json(bikes[bikeBrand])
+app.get('/api/:brand', (request, response)=>{
+    const bikeModel = request.params.brand.toLowerCase()
+    if(bikes[bikeModel]){
+        response.json(bikes[bikeModel])
     } else{
         response.json(bikes['unknown'])
     }
