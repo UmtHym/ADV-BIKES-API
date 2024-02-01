@@ -126,6 +126,6 @@ app.get('/api/:model', (request, response)=>{
 
 
 app.listen(process.env.PORT || PORT, ()=>{ 
-    console.log(`The server is running on port ${PORT}! You better go catch it!`)
+    console.log(`The server is running You better go catch it!`)
 })
 
