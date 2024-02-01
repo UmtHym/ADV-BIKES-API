@@ -1,13 +1,13 @@
 document.querySelector('button').addEventListener('click', apiRequest)
 
 async function apiRequest(){
-    const rapperName = document.querySelector('input').value
+    const bikeModel = document.querySelector('input').value
     try{
-        const response = await fetch(`https://rap-names-api-umit-6b173498c32d.herokuapp.com/api/${rapperName}`)
+        const response = await fetch(`https://git.heroku.com/adv-bikes-api-heroku.git/api/${bikeModel}`)
         const data = await response.json()
 
         console.log(data)
-        document.querySelector('h2').innerText = data.birthName
+        document.querySelector('h2').innerText = data.brand
     }catch(error){
         console.log(error)
     }
