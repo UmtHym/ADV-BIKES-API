@@ -115,9 +115,9 @@ app.get('/',(request, response)=>{
 })
 
 app.get('/api/:model', (request, response)=>{
-    const bikeModel = request.params.model.toLowerCase()
-    if(bikes[bikeModel]){
-        response.json(bikes[bikeModel])
+    const bikeBrand = request.params.model.toLowerCase()
+    if(bikes[bikeBrand]){
+        response.json(bikes[bikeBrand])
     } else{
         response.json(bikes['unknown'])
     }
