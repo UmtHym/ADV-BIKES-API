@@ -32,6 +32,81 @@ let bikes = {
         },
         'cost': '21.000€/17.000€'
     },
+    '890 Adventure R': {
+        'brand': 'KTM',
+        'year': '2021',
+        'engine': '1889 cc P Twin',
+        'torque': '104 hp 74 lb-ft (100nm)',
+        'transmission': '6 speed Manual Chain',
+        'forks': 'WP 48mm USD 90.4" Com/Reb',
+        'shocks': '9.4" Full',
+        'wheels': 'X Spoked 21"/18"',
+        'tires': 'Continental TKC80 90/90/21 150/70/18',
+        'brakes':{ 
+            'brand': 'J.Juam',
+            'abs': 'Lean Sense Switchable Offroad',
+            'front disc': '320mm x2',
+            'rear': '260mm x1'
+        },
+        'wet weight': '210kgs',
+        'seat height': 'high 880mm',
+        'fuel':{
+            'usage': '20 kmpl',
+            'tank capacity': '20 ltrs',
+            'range': '400 kms'
+        },
+        'cost': '16.199€'
+    },
+    'Desert-X': {
+        'brand': 'Ducati',
+        'year': '2024',
+        'engine': '937 cc L Twin',
+        'torque': '110 hp 68 lb-ft (92nm)',
+        'transmission': '6 speed Manual Chain',
+        'forks': 'KYB 46mm USD 9.1" Full',
+        'shocks': '8.7" Full',
+        'wheels': 'X Spoked 21"/18"',
+        'tires': 'Pirelli Scorpion STR 90/90/21 150/70/18',
+        'brakes':{ 
+            'brand': 'Brembo',
+            'abs': 'Lean Sense Switchable Offroad',
+            'front disc': '320mm x2',
+            'rear': '260mm x1'
+        },
+        'wet weight': '223kgs',
+        'seat height': 'high 875mm',
+        'fuel':{
+            'usage': '17 kmpl',
+            'tank capacity': '21 ltrs',
+            'range': '360 kms'
+        },
+        'cost': '16.490€'
+    },
+    'Norden 901 Expedition': {
+        'brand': 'Husqvarna',
+        'year': '2024',
+        'engine': '889 cc P Twin',
+        'torque': '104 hp 74 lb-ft (100nm)',
+        'transmission': '6 speed Manual Chain',
+        'forks': 'WP XPLOR 48mm 240mm',
+        'shocks': 'WP XPLOR 240 mm',
+        'wheels': 'X Spoked 21"/18"',
+        'tires': 'Continental TKC80 90/90/21 150/70/18',
+        'brakes':{ 
+            'brand': 'J.Juam',
+            'abs': 'Lean Sense Switchable Offroad',
+            'front disc': '320mm x2',
+            'rear': '260mm x1'
+        },
+        'wet weight': '214kgs',
+        'seat height': 'high 895mm low 875mm',
+        'fuel':{
+            'usage': '20 kmpl',
+            'tank capacity': '19 ltrs',
+            'range': '400 kms'
+        },
+        'cost': '15.299€'
+    },
     'unknown': {
         'model': 'unknown',
         'year': 'unknown',
